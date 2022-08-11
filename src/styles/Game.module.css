@@ -1,0 +1,21 @@
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
+
+.button {
+  font-size: 1rem;
+  margin: 5px;
+}
+
+.container, .buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  flex-direction: column;
+}
