@@ -8,7 +8,7 @@ const randomIdx = Math.floor(Math.random() * availableGestures.length);
 return availableGestures[randomIdx];
 }
 
-const getGameResult = (userGesture, aiGesture) => {
+export const getGameResult = (userGesture, aiGesture) => {
   if (userGesture === aiGesture) {
     return 'Game was a draw';
   }

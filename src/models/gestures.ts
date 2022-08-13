@@ -10,4 +10,5 @@ export interface IGameResult {
     message: string;
     userChoice: string;
     aiChoice: string;
+    error?: string;
   }

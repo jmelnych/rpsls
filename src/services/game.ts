@@ -1,4 +1,4 @@
-import { Gestures } from '../../models/gestures';
+import { Gestures } from '../models/gestures';
 
 export const play = (gesture: Gestures) => fetch("/api/rounds", {
     method: 'POST',
